@@ -9,7 +9,6 @@
 * ### 基本資源
   * 隨身碟(1個/人)：請洽助理，於畢業前需返還，不然不能畢業！
   * 延長線(1.8m & 2.7m)
-<br/>
 
 * ### server
   * 有關server的使用請連結到[此頁面](https://github.com/NTUMMIO/MMIO_Survival_Guides_P/blob/main/file/shiao_nas.md)
