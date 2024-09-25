@@ -10,8 +10,8 @@ The basic knowledge we believe you should know includes PET, Python, image proce
 Introduction to the resources we offer :
 * The [hardware resources](https://github.com/NTUMMIO/MMIO_Survival_Guides_P/blob/main/file/Hardware_resource%E2%80%8B.md) available in the MMIO lab.
 * The software resources that may be useful for your project, including SPM, freeSurfer, and toolkits for DICOM or NIfTI.(Todo)
-* If you want to store or backup files, check [this page](#).(Todo)
-* If you need a dataset, refer to [this file](#) for more information.(Todo)
+* If you want to store or backup files, check [this page].(Todo)
+* If you need a dataset, refer to [this file] for more information.(Todo)
 
 ## Part 3 - Server
 New to the server? Don't worry. We provide a [detailed tutorial file](https://github.com/NTUMMIO/MMIO_Survival_Guides_P/blob/main/file/shiao_nas.md) for the server. If you still have issues using it, contact the server manager for assistance.
