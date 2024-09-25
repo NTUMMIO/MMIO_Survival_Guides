@@ -4,7 +4,7 @@ Welcome to all the new members joining our lab. This document is designed to hel
 
 
 ## Part 1 - Knowledge(Todo)
-The basic knowledge we believe you should know includes PET, Python, image processing, and machine learning/deep learning. On [this page](https://github.com/NTUMMIO/MMIO_Survival_Guides/blob/main/file/Knowledge.md), we provide documents and websites. If you encounter any issues with the project, these books might offer solutions—or you can read them before sleep.
+The basic knowledge we believe you should know includes PET, Python, image processing, and machine learning/deep learning. On this page, we provide documents and websites. If you encounter any issues with the project, these books might offer solutions—or you can read them before sleep.
 
 ## Part 2 - Resources
 Introduction to the resources we offer :
