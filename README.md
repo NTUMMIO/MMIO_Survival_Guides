@@ -8,7 +8,7 @@ The basic knowledge we believe you should know includes PET, Python, image proce
 
 ## Part 2 - Resources(Todo)
 Introduction to the resources we offer :
-* The [hardware resources](https://github.com/NTUMMIO/MMIO_Survival_Guides/blob/main/file/Hardware_resource%E2%80%8B.md) available in the MMIO lab.
+* The [hardware resources](https://github.com/NTUMMIO/MMIO_Survival_Guides_P/blob/main/file/Hardware_resource%E2%80%8B.md) available in the MMIO lab.
 * The [software resources](https://github.com/NTUMMIO/MMIO_Survival_Guides/tree/main/file/software) that may be useful for your project, including SPM, freeSurfer, and toolkits for DICOM or NIfTI.
 * If you want to store or backup files, check [this page](#).
 * If you need a dataset, refer to [this file](#) for more information.
