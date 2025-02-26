@@ -14,6 +14,6 @@ Introduction to the resources we offer :
 * If you need a dataset, refer to this file for more information.(Todo)
 
 ## Part 3 - Server
-New to the server? Don't worry. We provide a [detailed tutorial file](https://github.com/NTUMMIO/MMIO_Survival_Guides_P/blob/main/file/shiao_nas.md) for the server. If you still have issues using it, contact the server manager for assistance.
+New to the server? Don't worry. We provide a [detailed tutorial file](https://github.com/NTUMMIO/MMIO_Survival_Guides/blob/main/file/shiao_nas.md) for the server. If you still have issues using it, contact the server manager for assistance.
 
  
