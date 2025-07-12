@@ -1,5 +1,5 @@
 # MMIO_Survival_Guides
-Welcome to all the new members joining our lab. This document is designed to help you quickly adapt to the new environment.
+Welcome to all the new members joining our lab. This document is designed to help you quickly adapt to the new environment. If there's any issue, please contact Lab's system admin.
 <br/>
 
 
