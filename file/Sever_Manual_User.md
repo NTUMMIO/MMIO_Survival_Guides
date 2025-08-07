@@ -124,10 +124,18 @@ vim <filepath>
 
 ### Basic operation
 
-Copy a file or directory
+Copy a file or empty directory
 ```
 cp <source> <destination>
 ```
+
+---
+
+Copy a non-empty directory
+```
+cp -r <source> <destination>
+```
+`-r` Recursive mode
 
 ---
 
