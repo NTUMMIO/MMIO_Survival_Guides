@@ -1,5 +1,5 @@
 # MMIO Server User Manual
-> ## Latest Update: 2025-08-06
+> ## Latest Update: 2025-08-09
 
 Here are commands often used when you connect to the server. 
 
@@ -7,6 +7,7 @@ Here are commands often used when you connect to the server.
 If you encounter any of the following situations, please contact the administrators or leave a message in the lab's Discord:
 - You need to use any command starting with sudo
 - You need to install software on the server
+- You need to do something outside your home directory
 - You need some technical supports
 - You want to add something into todo list
 - Something is going wrong
@@ -19,10 +20,11 @@ If you encounter any of the following situations, please contact the administrat
 
 
 ## !!! WARNING !!!
-> ### The server could only be accessed by the Lab's IP addresses. 
+> ### The server could only be accessed by the **Lab's IP addresses**. 
 > ### Always use [VPN client](https://reurl.cc/9nR4Yd) to access the server.
 > ### Always use [virtual environments](#virtual-environment-top) for coding.
 > ### Always check the [GPU usage](#gpu-resource-top) before you start training.
+> ### DO NOT manipulate the files outside your home directory
 
 
 ## Table of Contents
@@ -33,6 +35,7 @@ If you encounter any of the following situations, please contact the administrat
 - [GPU Resource](#gpu-resource-top)
 - [User-Specific CUDA](#user-specific-cuda-top)
 - [Git & GitHub](#git--github-top)
+- [MATLAB](#matlab-top)
 - [tmux](#tmux-top)
 - [Todo](#todo-todo)
 
@@ -52,8 +55,14 @@ ssh <username>@<server_IP> -p <port>
 
 ### GUI version
 
-You can also use the SSH service via visualized software. 
-- MobaXTerm ([Installer](https://reurl.cc/7VMMvd))
+You can also use the SSH service via visualized software. Some programs (e.g., MATLAB) require a graphical environment, which means you need to have an X server installed on your desktop. 
+
+**MobaXterm** ([Installer](https://reurl.cc/7VMMvd)) comes with a built-in X server, making it a convenient choice. Simply use **MobaXterm** to connect to the server via SSH and run commands as you would in a regular. 
+
+Check graphical environment status
+```
+echo $DISPLAY
+```
 
 
 ## Basic Command Line <a href="#mmio-server-user-manual" style="float:right;">Top</a>
@@ -176,6 +185,14 @@ mkdir <directory>
 
 ---
 
+Unzip file
+```
+unzip <file>.zip -d <destination>
+```
+`-d` Specify destination
+
+---
+
 Modify file permissions
 ```
 chmod <username>:<usergroup>:others <dir>
@@ -226,7 +243,7 @@ conda --version
 
 Create a new environment
 ```
-conda create -n <env> python=3.X
+conda create -n <env> python=3.<XX>
 ```
 - `-n` Specify the name of virtual environment
 
@@ -290,6 +307,35 @@ or
 ```
 conda install <package>=X.XX.X
 ```
+
+### Manage package
+
+Show package list
+```
+pip list
+```
+
+or
+
+```
+conda list
+```
+
+---
+
+Export package list
+```
+pip freeze > <file>.txt
+```
+- `<file>.txt` Usually use "requirement.txt"
+
+---
+
+Install package list
+```
+pip -r <file>.txt
+```
+`-r` Recursive mode
 
 
 ## GPU Resource <a href="#mmio-server-user-manual" style="float:right;">Top</a>
@@ -429,15 +475,55 @@ git push
 ```
 
 
-## tmux <a href="#mmio-server-user-manual" style="float:right;">Top</a>
+## MATLAB <a href="#mmio-server-user-manual" style="float:right;">Top</a>
 
-tmux is a terminal multiplexer that lets you run and manage multiple terminal sessions in one window. It supports session persistence (even after disconnecting SSH), window splitting, and is great for remote work.
+### Execute MATLAB code
+
+Option 1
+
+You just want to execute MATLAB code (.m file)
+
+```
+matlab -batch "<file>"
+matlab -batch "<file>('arg1', arg2)"
+```
+
+or 
+
+```
+matlab -nodisplay -nosplash -nodesktop -r "<file>; exit"
+matlab -nodisplay -nosplash -nodesktop -r "<file>('arg1', arg2); exit"
+```
+
+or 
+
+Use MATLAB Extension ([installer](https://marketplace.visualstudio.com/items?itemName=MathWorks.language-matlab)) in VS Code.
+
+---
+
+Option 2
+
+You need GUI to manipulate something. You have to connect the server with X server. See [how to use](#gui-version).
+
+```
+matlab
+```
+- `matlab` in MobaXterm will open GUI
+
+### Make Python drive MATLAB code
+
+Please contact the administrators.
+
+
+## `tmux` <a href="#mmio-server-user-manual" style="float:right;">Top</a>
+
+`tmux` is a terminal multiplexer that lets you run and manage multiple terminal sessions in one window. It supports session persistence (even after disconnecting SSH), window splitting, and is great for remote work.
 
 For more detail, please check the onlin [tutorial](https://blog.gtwang.org/linux/linux-tmux-terminal-multiplexer-tutorial/)
 
 ### Basic Operation
 
-Open tmux session
+Open `tmux` session
 ```
 tmux
 ```
