@@ -1,19 +1,26 @@
-# MMIO_Survival_Guides
-Welcome to all the new members joining our lab. This document is designed to help you quickly adapt to the new environment. If there's any issue, please contact Lab's system admin.
-<br/>
+# MMIO Survival Guides
+
+Welcome to all the new members joining our lab. This document is designed to help you quickly adapt to the new environment. If there's any issue, please contact Lab's server managers.
 
 
-## Part 1 - Knowledge(Todo)
-The basic knowledge we believe you should know includes PET, Python, image processing, and machine learning/deep learning. On this page, we provide documents and websites. If you encounter any issues with the project, these books might offer solutions—or you can read them before sleep.
+## Part 1 - Knowledge
+
+The basic knowledge we believe you should know includes PET, Python, image processing, and machine learning/deep learning. We provide documents and websites on [Knowledge](Document/Knowledge.md). If you encounter any issues with the project, these books might offer solutions or you can read them before sleep.
+
 
 ## Part 2 - Resources
-Introduction to the resources we offer :
-* The [hardware resources](https://github.com/NTUMMIO/MMIO_Survival_Guides/blob/main/file/Hardware_resource%E2%80%8B.md) available in the MMIO lab.
-* The software resources that may be useful for your project, including SPM, freeSurfer, and toolkits for DICOM or NIfTI.(Todo)
-* If you want to store or backup files, check this page.(Todo)
-* If you need a dataset, refer to this file for more information.(Todo)
+
+Introduction to the resources we offer:
+
+The [Hardware Resource](Document/Resource_Hardware.md) available in the MMIO lab.
+
+The [Software Resource](Document/Resource_Software.md) that may be useful for your project, including SPM, freeSurfer, and toolkits for DICOM or NIfTI.
+
+If you want to store or backup files, check [NAS User Manual](Document/NAS_Manual_User.md) or use Lab's Dropbox, depending on the file properties.
+- Dropbox: Thesis, poster, or other important files for publications/journal club/PI's courses
+- NAS: Others
+
 
 ## Part 3 - Server
-New to the server? Don't worry. We provide a [detailed tutorial file](https://github.com/NTUMMIO/MMIO_Survival_Guides/blob/main/file/shiao_nas.md) for the server. If you still have issues using it, contact the server manager for assistance.
 
- 
+New to the server? Don't worry. We provide a [Server User Manual](Document/Server_Manual_User.md) for servers. You can contact the server magagers for help if you are still having issues.

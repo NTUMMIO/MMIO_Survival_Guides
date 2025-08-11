@@ -4,7 +4,7 @@ MMIO 430小NAS 連線實戰手冊
 ---
 # I. 網頁連線登入
 >* 網頁搜尋 **"Synology QuickConnect"** 並進入網站 (<https://quickconnect.to/>)  
->* 輸入QuickConnect ID(實驗室共有) 並連線。  
+>* 輸入QuickConnect ID: **"multimodal432"** 並連線。  
 >* 登入自己的NAS使用者帳號，進入NAS主畫面。  
 ---
 # II. 使用網頁 上傳／下載 (GUI)
@@ -36,14 +36,32 @@ MMIO 430小NAS 連線實戰手冊
 ---
 # IV. 在MobaXterm SFTP連線 上傳／下載檔案 (commands)
 >* 上傳 MobaXtterm 上的檔案 \<local_file_path\> 到 NAS 上的目標路徑 \<nas_destination\>。
->```bash
+>```sftp
 > put <local_file_path> <nas_destination>
 >
 > put <local_file_path>  #上傳檔案到NAS的當前路徑
 >```
 >* 從 NAS 下載檔案 \<nas_file_path\> 到 MobaXterm 上的目標路徑 \<local_destination\>。
->```bash
+>```sftp
 > get <nas_file_path> <local_destination>
 >
 > get <nas_file_path>  #下載檔案到MobaXterm的當前路徑
+>```
+>*上傳/下載
+>a. 資料夾
+>```sftp
+> put/get -r ...(同上)
+>```
+>b. 多個資料夾
+>新增一個.sh file (e.g. iter_upload.sh):
+>```bash
+>for dir in *file/; do
+>    sftp user@host <<EOF
+>    put -r $dir
+>EOF
+>done
+>```
+>執行 (in bash):
+>```bash
+>bash iter_upload.sh
 >```

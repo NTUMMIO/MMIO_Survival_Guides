@@ -1,17 +1,17 @@
 # MMIO Server User Manual
-> ## Latest Update: 2025-08-09
+> ## Latest Update: 2025-08-11
 
 Here are commands often used when you connect to the server. 
 
 ### Reminder
-If you encounter any of the following situations, please contact the administrators or leave a message in the lab's Discord:
+If you encounter any of the following situations, please contact the server managers or leave a message in the lab's Discord:
 - You need to use any command starting with sudo
-- You need to install software on the server
+- You need to install system-wide software on the server
 - You need to do something outside your home directory
 - You need some technical supports
 - You want to add something into todo list
-- Something is going wrong
 - You find an error in the manual
+- There is something wrong about servers.
 
 
 ## Server Status
@@ -24,7 +24,7 @@ If you encounter any of the following situations, please contact the administrat
 > ### Always use [VPN client](https://reurl.cc/9nR4Yd) to access the server.
 > ### Always use [virtual environments](#virtual-environment-top) for coding.
 > ### Always check the [GPU usage](#gpu-resource-top) before you start training.
-> ### DO NOT manipulate the files outside your home directory
+> ### DO NOT manipulate the files outside your home directory.
 
 
 ## Table of Contents
@@ -57,7 +57,7 @@ ssh <username>@<server_IP> -p <port>
 
 You can also use the SSH service via visualized software. Some programs (e.g., MATLAB) require a graphical environment, which means you need to have an X server installed on your desktop. 
 
-**MobaXterm** ([Installer](https://reurl.cc/7VMMvd)) comes with a built-in X server, making it a convenient choice. Simply use **MobaXterm** to connect to the server via SSH and run commands as you would in a regular. 
+**MobaXterm** comes with a built-in X server, making it a convenient choice. Simply use **MobaXterm** to connect to the server via SSH and run commands as you would in a regular. 
 
 Check graphical environment status
 ```
@@ -155,7 +155,7 @@ mv <source> <destination>
 
 ---
 
-Delete file or empty directory
+Delete file
 ```
 rm <file>
 ```
@@ -371,7 +371,7 @@ Some programs may need to apply on a specific CUDA version. You can install CUDA
 
 ### Install Procedure (Example: cuda-12.2)
 
-Download the [installer](https://developer.nvidia.com/cuda-toolkit-archive) from the CUDA Toolkit Archive:
+Download the [[installer](https://developer.nvidia.com/cuda-toolkit-archive)] from the CUDA Toolkit Archive:
 ```
 wget https://developer.download.nvidia.com/compute/cuda/12.2.0/local_installers/cuda_12.2.0_535.54.03_linux.run
 ```
@@ -497,7 +497,7 @@ matlab -nodisplay -nosplash -nodesktop -r "<file>('arg1', arg2); exit"
 
 or 
 
-Use MATLAB Extension ([installer](https://marketplace.visualstudio.com/items?itemName=MathWorks.language-matlab)) in VS Code.
+Use MATLAB Extension in VS Code.
 
 ---
 
@@ -510,16 +510,70 @@ matlab
 ```
 - `matlab` in MobaXterm will open GUI
 
+### Statistical Parametric Mapping (SPM)
+
+SPM need graphical environment. You have to connect the server with X server. See [how to use](#gui-version).
+
+#### SPM 8
+Enter following command in terminal
+```
+matlab-spm8
+```
+
+or 
+
+Open MATLAB GUI then open SPM in command window
+```
+addpath /usr/local/spm8
+spm fmri
+```
+
+#### SPM 12
+Enter following command in terminal
+```
+matlab-spm12
+```
+
+or 
+
+Open MATLAB GUI then open SPM in command window
+```
+addpath /usr/local/spm12
+spm fmri
+```
+
+### Manage MATLAB Add-Ons
+
+Open MATLAB
+```
+matlab
+```
+
+---
+
+Install Add-Ons
+- *Add-Ons* > *Get Add-Ons* > Search the Add-Ons you need > *Add* > *Add to MATLAB*
+
+---
+
+Make Add-Ons Executable
+```
+chmod 755 | 700 -R "MATLAB Add-Ons"
+```
+- `755` User have fulle permission, others only can read and execute
+- `700` Only user have fulle permission
+- `-R` Recursive mode
+
 ### Make Python drive MATLAB code
 
-Please contact the administrators.
+Please contact the server managers.
 
 
 ## `tmux` <a href="#mmio-server-user-manual" style="float:right;">Top</a>
 
 `tmux` is a terminal multiplexer that lets you run and manage multiple terminal sessions in one window. It supports session persistence (even after disconnecting SSH), window splitting, and is great for remote work.
 
-For more detail, please check the onlin [tutorial](https://blog.gtwang.org/linux/linux-tmux-terminal-multiplexer-tutorial/)
+For more detail, please check the online [[tutorial](https://blog.gtwang.org/linux/linux-tmux-terminal-multiplexer-tutorial/)]
 
 ### Basic Operation
 
