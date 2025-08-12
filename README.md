@@ -23,4 +23,13 @@ If you want to store or backup files, check [NAS User Manual](Document/NAS_Manua
 
 ## Part 3 - Server
 
+
 New to the server? Don't worry. We provide a [Server User Manual](Document/Server_Manual_User.md) for servers. You can contact the server magagers for help if you are still having issues.
+
+
+## Part 4 - Thesis
+
+
+We recommend the following two ways to finish your thesis in LaTeX:
+(1)[overleaf](https://www.overleaf.com/latex/templates/national-taiwan-university-thesis-template/hvfybyfxgztt)
+(2)[VSCode](Document/latexinvscode.md)
