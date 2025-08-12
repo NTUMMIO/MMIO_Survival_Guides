@@ -32,6 +32,7 @@ New to the server? Don't worry. We provide a [Server User Manual](Document/Serve
 
 We recommend the following two ways to finish your thesis in LaTeX:
 - [Overleaf](https://www.overleaf.com/latex/templates/national-taiwan-university-thesis-template/hvfybyfxgztt)
-- [VSCode](Document/latexinvscode.md)
+- [VSCode](Document/Latex_in_vscode.md)
+
 
 
