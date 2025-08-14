@@ -1,5 +1,5 @@
 # Software Resource
-> ## Latest Update: 2025-08-11
+> ## Latest Update: 2025-08-14
 
 
 ## MATLAB
@@ -25,7 +25,9 @@ Download and unzip the zip file from GitHub, then put it to MATLAB toolbox path.
 
 ### Small tool
 
-See Hsin Ta's page. [[GitHub](https://github.com/h-t-lin/SPM_coreg_DOF)]
+*We appreciate the contributions of **林欣達 Hsin-Ta Lin** to this small tool.*
+
+[[GitHub](https://github.com/h-t-lin/SPM_coreg_DOF)]
 
 
 ## VS Code
@@ -40,6 +42,19 @@ See Hsin Ta's page. [[GitHub](https://github.com/h-t-lin/SPM_coreg_DOF)]
 - Nifti Viewer [[Installer](https://marketplace.visualstudio.com/items?itemName=KorbinianEckstein.niivue)]
 - PDF Viewer [[Installer](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)]
 - Excel Viewer [[Installer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)]
+
+
+## LaTex
+
+### Thesis templete (provided by lab's member)
+
+*We appreciate the contributions of **林欣達 Hsin-Ta Lin** to this thesis templete.*
+
+[[GitHub](https://github.com/NTUMMIO/MMIO_Thesis_Template)]
+
+### Thesis templete (provided by others)
+
+[[GitHub](https://github.com/Hsins/NTU-Thesis-LaTeX-Template)]
 
 
 ## MobaXterm

@@ -1,5 +1,5 @@
 # MMIO Server User Manual
-> ## Latest Update: 2025-08-11
+> ## Latest Update: 2025-08-14
 
 Here are commands often used when you connect to the server. 
 
@@ -66,6 +66,14 @@ echo $DISPLAY
 
 
 ## Basic Command Line <a href="#mmio-server-user-manual" style="float:right;">Top</a>
+
+Show document about command
+```
+<command> -h | -help | --h | --help
+```
+- The parameters for `Help` vary among different commands.
+
+---
 
 List files and subdirectories inside the current directory
 ```
