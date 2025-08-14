@@ -24,7 +24,7 @@ If you want to store or backup files, check [NAS User Manual](Document/NAS_Manua
 ## Part 3 - Server
 
 
-New to the server? Don't worry. We provide a [Server User Manual](Document/Server_Manual_User.md) for servers. You can contact the server magagers for help if you are still having issues.
+New to the server? Don't worry. We provide a [Server User Manual](Document/Server_Manual_User.md) for servers. You can contact the server managers for help if you are still having issues.
 
 
 ## Part 4 - Thesis

@@ -566,7 +566,7 @@ Install Add-Ons
 
 Make Add-Ons Executable
 ```
-chmod 755 | 700 -R "MATLAB Add-Ons"
+chmod -R 755 | 700 "MATLAB Add-Ons"
 ```
 - `755` User have fulle permission, others only can read and execute
 - `700` Only user have fulle permission
