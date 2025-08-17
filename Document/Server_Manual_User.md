@@ -16,7 +16,7 @@ If you encounter any of the following situations, please contact the server mana
 
 ## Server Status
 > ### Supermicro: ✅ Work Normally
-> ### R740: ✅ Work Normally
+> ### R740: ⚠️ Connection Broke
 
 
 ## !!! WARNING !!!
