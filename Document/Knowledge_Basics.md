@@ -1,5 +1,5 @@
 # Knowledge
-> ## Latest Update: 2025-08-14
+> ## Latest Update: 2025-08-27
 
 
 ## MMIO Lab
@@ -34,6 +34,17 @@
 [[GitHub](https://github.com/NTUMMIO/MRS_Analysis_Toolbox)] An Accessible Toolbox for MR Spectroscopy Data Extraction and Analysis
 
 
+## MMIO Lab Members' Small Tool
+
+### Image Preprocessing 
+
+*We appreciate the contributions of **林欣達 Hsin-Ta Lin** to this small tool.*
+
+[MATLAB] [[SPM Coregister DOF Controller](https://github.com/h-t-lin/SPM_coreg_DOF)] SPM_coreg_DOF
+
+[Python] [[DICOM Manipulation Toolbox](https://github.com/h-t-lin/SPM_coreg_DOF)] DICOM Python Toolbox
+
+
 ## PET
 
 ### Cherry, S.R., Dahlbom, M. (2006). PET: Physics, Instrumentation, and Scanners.
@@ -47,3 +58,9 @@
 [[2021](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php)]
 [[2022](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php)]
 [[2023](https://speech.ee.ntu.edu.tw/~hylee/ml/2023-spring.php)]
+
+
+## Biostatistic
+
+### 台大 - 生物統計學一
+[[OCW](https://ocw.aca.ntu.edu.tw/courses/108S101)]

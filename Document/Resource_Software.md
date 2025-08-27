@@ -1,11 +1,10 @@
 # Software Resource
-> ## Latest Update: 2025-08-14
+> ## Latest Update: 2025-08-27
 
 
 ## MATLAB
 
 [[Installer](https://login.mathworks.com/embedded-login/landing.html?cid=getmatlab&s_=)] (*Install MATLAB* > *Select Releasse* > *Download for Windows*)
-
 
 ## SPM
 
@@ -22,12 +21,6 @@
 [[Guide Line](https://www.fil.ion.ucl.ac.uk/spm/docs/installation/)]
 
 Download and unzip the zip file from GitHub, then put it to MATLAB toolbox path.
-
-### Small tool
-
-*We appreciate the contributions of **林欣達 Hsin-Ta Lin** to this small tool.*
-
-[[GitHub](https://github.com/h-t-lin/SPM_coreg_DOF)]
 
 
 ## VS Code
