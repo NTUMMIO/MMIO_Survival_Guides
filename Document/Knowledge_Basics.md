@@ -44,6 +44,12 @@
 
 [Python] [[DICOM Manipulation Toolbox](https://github.com/h-t-lin/SPM_coreg_DOF)] DICOM Python Toolbox
 
+### LaTex Thesis templete
+
+*We appreciate the contributions of **林欣達 Hsin-Ta Lin, 李宜師 Yi-Shih Li** to this thesis templete.*
+
+[[GitHub](https://github.com/NTUMMIO/MMIO_MS_Thesis)]
+
 
 ## PET
 

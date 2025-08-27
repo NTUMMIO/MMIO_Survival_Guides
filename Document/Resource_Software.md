@@ -37,19 +37,6 @@ Download and unzip the zip file from GitHub, then put it to MATLAB toolbox path.
 - Excel Viewer [[Installer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)]
 
 
-## LaTex
-
-### Thesis templete (provided by lab's member)
-
-*We appreciate the contributions of **林欣達 Hsin-Ta Lin** to this thesis templete.*
-
-[[GitHub](https://github.com/NTUMMIO/MMIO_Thesis_Template)]
-
-### Thesis templete (provided by others)
-
-[[GitHub](https://github.com/Hsins/NTU-Thesis-LaTeX-Template)]
-
-
 ## MobaXterm
 
 [[Installer](https://mobaxterm.mobatek.net/download-home-edition.html)] (*Installer edition*)
