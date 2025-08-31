@@ -27,12 +27,19 @@ If you want to store or backup files, check [NAS User Manual](Document/NAS_Manua
 New to the server? Don't worry. We provide a [Server User Manual](Document/Server_Manual_User.md) for servers. You can contact the server managers for help if you are still having issues.
 
 
-## Part 4 - Thesis
+## Part 4 - Life in Lab
+
+
+Responsilities and roles of lab members, as well as some lab rules can be found [here](Document/Life_in_lab.md).
+
+
+## Part 5 - Thesis
 
 
 We recommend the following two ways to finish your thesis in LaTeX:
 - [Overleaf](https://www.overleaf.com/latex/templates/national-taiwan-university-thesis-template/hvfybyfxgztt)
 - [VSCode](Document/Latex_in_vscode.md)
+
 
 
 
