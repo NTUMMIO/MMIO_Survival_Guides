@@ -1,5 +1,5 @@
 # Knowledge
-> ## Latest Update: 2025-08-27
+> ## Latest Update: 2025-09-03
 
 
 ## MMIO Lab
@@ -33,6 +33,14 @@
 
 [[GitHub](https://github.com/NTUMMIO/MRS_Analysis_Toolbox)] An Accessible Toolbox for MR Spectroscopy Data Extraction and Analysis
 
+### Classification of Amyloidopathies
+
+*We appreciate the contributions of **黃冠琳 Guan-Lin Huang** to this project.*
+
+[[GitHub](https://github.com/queena53/MMIO)] A Deep-Learning-Based Classification Pipeline for PET Imaging of Amyloidopathies
+
+[[Guideline](https://docs.google.com/document/d/1YyqauQ9GZgJScUc-4ptaeRyCTPx4vAqSeaiktvIGS94/edit?tab=t.0)] Usage Document
+
 
 ## MMIO Lab Members' Small Tool
 
@@ -40,9 +48,9 @@
 
 *We appreciate the contributions of **林欣達 Hsin-Ta Lin** to this small tool.*
 
-[MATLAB] [[SPM Coregister DOF Controller](https://github.com/h-t-lin/SPM_coreg_DOF)] SPM_coreg_DOF
+[[GitHub](https://github.com/h-t-lin/SPM_coreg_DOF)] (Python) SPM Coregister DOF Controller
 
-[Python] [[DICOM Manipulation Toolbox](https://github.com/h-t-lin/SPM_coreg_DOF)] DICOM Python Toolbox
+[[GitHub](https://github.com/h-t-lin/SPM_coreg_DOF)] (MATLAB) DICOM Manipulation Toolbox
 
 ### LaTex Thesis templete
 
