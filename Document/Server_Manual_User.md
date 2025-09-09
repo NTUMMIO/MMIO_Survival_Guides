@@ -1,5 +1,5 @@
 # MMIO Server User Manual
-> ## Latest Update: 2025-08-14
+> ## Latest Update: 2025-09-09
 
 Here are commands often used when you connect to the server. 
 
@@ -354,6 +354,7 @@ Server        | GPU          | Manufacturer    | Quantity    | Memory    |
 --------------|--------------|-----------------|-------------|-----------|
 Supermicro    | A100         | Nvidia          | 2           | 80GB      |
 Supermicro    | RTX A6000    | Nvidia          | 2           | 48GB      |
+Supermicro    | RTX Pro 6000 | Nvidia          | 2           | 96GB      |
 R740          | A40          | Nvidia          | 1           | 48GB      |
 
 ### Usage information
