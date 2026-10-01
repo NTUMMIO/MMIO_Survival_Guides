@@ -1,5 +1,5 @@
 # MMIO Server User Manual
-> ## Latest Update: 2025-09-09
+> ## Latest Update: 2026-10-01
 
 Here are commands often used when you connect to the server. 
 
@@ -21,7 +21,7 @@ If you encounter any of the following situations, please contact the server mana
 
 ## !!! WARNING !!!
 > ### The server could only be accessed by the **Lab's IP addresses**. 
-> ### Always use [VPN client](https://reurl.cc/9nR4Yd) to access the server.
+> ### Always use [VPN client](https://docs.google.com/presentation/d/1VeBZYJ2Xhoyco0cSKxDZgjZqvtwHpowPGusY_o9aEwU/edit?usp=sharing) to access the server.
 > ### Always use [virtual environments](#virtual-environment-top) for coding.
 > ### Always check the [GPU usage](#gpu-resource-top) before you start training.
 > ### DO NOT manipulate the files outside your home directory.
