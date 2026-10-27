@@ -1,6 +1,6 @@
 # Life in lab
 
-> ## Latest Update: 2026-08-26
+> ## Latest Update: 2026-10-27
 
 
 
@@ -111,3 +111,9 @@ The fridge is personal property of the PI. Feel free to use the fridge for tempo
 
 ### Stipends and Travel
 
+For PhD students, traveling to an advisor-approved international conference and presenting an abstract is a department requirement for graduation. 
+
+For master's students, the PI will encourage students to submit abstracts to international conferences. The selection of conferences will be based on the availability of funding, such that all students have a chance to participate. Priority of finding will be in the order of: 
+1. Registration
+2. Transportation
+3. Meals and lodging.
